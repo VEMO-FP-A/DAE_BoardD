@@ -78,6 +78,8 @@ body.dark-mode .kpi-spark svg path[stroke="#1F5454"]{stroke:#9aa3ac!important}
 
 /* VEMO Tables (board pack) — titulo igualito al SS */
 .vemo-section-title{font-family:'Space Grotesk',sans-serif;font-size:30px;color:#1F5454;font-weight:600;margin:8px 0 14px;letter-spacing:-0.015em;line-height:1.05}
+.pl-view-badge{display:inline-block;font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:800;letter-spacing:0.04em;text-transform:uppercase;color:#1a2b6d;background:#dbe4ff;padding:4px 9px;border-radius:3px;border-bottom:2px solid #3b4fd1;margin-bottom:10px}
+body.dark-mode .pl-view-badge{color:#c9d6ff;background:#26305c;border-bottom-color:#5b74e6}
 .vemo-section-title b{color:#1F5454;font-weight:800}
 .tbl-scroll{overflow-x:auto;border-radius:8px;border:1px solid var(--b);background:var(--sf)}
 .vemo-tbl{border-collapse:separate;border-spacing:0;width:100%;font-size:11px;font-variant-numeric:tabular-nums}
@@ -775,7 +777,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-08-24 16:03</div>
+  <div>build 2026-08-24 22:22</div>
 </footer>
 
 <script>
@@ -1533,7 +1535,9 @@ function renderPLVemo(targetId, opts){
   } finally {
     if(_savedView !== null) PL_VIEW = _savedView;
   }
+  const badgeHtml = opts.badge ? '<div class="pl-view-badge">'+opts.badge+'</div>' : '';
   tgt.innerHTML =
+    badgeHtml+
     '<div class="vemo-section-title">'+title+'</div>'+
     '<div class="tbl-scroll"><table class="vemo-tbl">'+
       plHeaderRows(tblTitle)+
@@ -6091,7 +6095,7 @@ function renderComparator(){
         // Executive Summary (pl-vemo) SIEMPRE Managerial — no cambia con el toggle
         try { renderPLVemo('pl-vemo',{simple:true,forceView:'managerial',title:'DAE – <b>P&L Summary (Managerial View)</b>'}); } catch(e){ console.warn(e); }
         // El detalle del tab P&L SI cambia con el toggle
-        try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary (' + (PL_VIEW==='managerial'?'Managerial View':'Accounting View') + ')</b>'}); } catch(e){ console.warn(e); }
+        try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary</b>',badge:'P&L Summary View: Managerial View'}); } catch(e){ console.warn(e); }
         try { renderEbitdaBridge(); } catch(e){ console.warn(e); }
         try { renderKPICards(); } catch(e){ console.warn(e); }
       });
@@ -6108,7 +6112,7 @@ function renderComparator(){
     if(t){
       t.addEventListener('change', function(){
         PL_SHOW_HISTORIC = t.checked;
-        try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary</b>'}); } catch(e){ console.warn(e); }
+        try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary</b>',badge:'P&L Summary View: Managerial View'}); } catch(e){ console.warn(e); }
       });
     }
   }
@@ -6124,7 +6128,7 @@ function renderComparator(){
         document.querySelectorAll('#pl-period-toggle button').forEach(function(x){x.classList.remove('active');});
         b.classList.add('active');
         PL_PERIOD_MODE = b.dataset.period;
-        try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary</b>'}); } catch(e){ console.warn(e); }
+        try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary</b>',badge:'P&L Summary View: Managerial View'}); } catch(e){ console.warn(e); }
       });
     });
   }
@@ -6224,7 +6228,7 @@ function init(){
   try { setupCalc(); } catch(e){ console.warn('setupCalc',e); }
   try { setupChat(); } catch(e){ console.warn('setupChat',e); }
   // Detalle del tab P&L: refleja el PL_VIEW actual (arranca en managerial)
-  try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary (' + (PL_VIEW==='managerial'?'Managerial View':'Accounting View') + ')</b>'}); } catch(e){ console.warn('renderPLVemo detail',e); }
+  try { renderPLVemo('pl-vemo-detail',{simple:false,title:'DAE – <b>P&L Summary</b>',badge:'P&L Summary View: Managerial View'}); } catch(e){ console.warn('renderPLVemo detail',e); }
   // renderPLBridge y renderPLCharts removed — solo dejamos EBITDA vs Budget Bridge en P&L
   try { renderEbitdaBridge(); } catch(e){ console.warn('renderEbitdaBridge',e); }
   try { setupVarFilters(); } catch(e){ console.warn('setupVarFilters',e); }
