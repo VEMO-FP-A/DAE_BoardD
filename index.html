@@ -703,7 +703,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
   <div class="vemo-section-title">EBITDA <b>vs Budget</b> Bridge <span style="font-size:10px;font-weight:400;color:var(--tx3);letter-spacing:0.04em;text-transform:none;margin-left:8px;font-style:italic">Managerial View</span></div>
   <div class="chart-card" style="margin-bottom:22px">
     <div class="chart-hd">
-      <span class="t">Budget EBITDA → Actual EBITDA · <span id="ebridge-period"></span></span>
+      <span class="t">Budget EBITDA → Actual EBITDA · <span id="ebridge-period"></span><span id="ebridge-variance"></span></span>
       <div class="chart-toggles">
         <label><input type="radio" name="ebridge-mode" value="cur" checked> Current month</label>
         <label><input type="radio" name="ebridge-mode" value="ytd"> YTD</label>
@@ -721,7 +721,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-08-25 11:57</div>
+  <div>build 2026-08-25 18:10</div>
 </footer>
 
 <script>
@@ -2785,6 +2785,19 @@ function renderEbitdaBridge(){
   // (Actual EBITDA) simplemente no coincidira exactamente con la suma.
   steps.push({l:'Actual EBITDA', val: ebitdaAct, type:'total', color:TOTAL_COLOR});
 
+  // Label del periodo + Total variance (se setean ANTES de dibujar el chart
+  // para que no dependan de que Chart.js haya cargado correctamente)
+  const pl = isYTD ? ('YTD ' + mlblShort(YTD_START) + ' → ' + mlblShort(CUR)) : mlblShort(CUR);
+  const periodEl = document.getElementById('ebridge-period');
+  if(periodEl) periodEl.textContent = pl;
+  const varEl = document.getElementById('ebridge-variance');
+  if(varEl){
+    const good = totalDelta >= 0;
+    const sign = good ? '+' : '-';
+    const color = good ? '#6FE8B0' : '#FF8A75';
+    varEl.innerHTML = ' · Total variance: <b style="color:'+color+'">'+sign+'$'+Math.abs(totalDelta/1e6).toFixed(1)+'M</b>';
+  }
+
   // Construir waterfall
   const labels = steps.map(s => s.l);
   const bases = [], tops = [], colors = [], displayVals = [];
@@ -2891,10 +2904,6 @@ function renderEbitdaBridge(){
     }]
   });
 
-  // Label del periodo
-  const pl = isYTD ? ('YTD ' + mlblShort(YTD_START) + ' → ' + mlblShort(CUR)) : mlblShort(CUR);
-  const periodEl = document.getElementById('ebridge-period');
-  if(periodEl) periodEl.textContent = pl;
 }
 
 function renderPLCharts(){
