@@ -139,9 +139,10 @@ body.dark-mode .pl-view-badge b{color:var(--mint)}
 .chart-hd{background:var(--forest);color:#fff;padding:9px 14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
 .chart-hd .t{font-size:13px;font-weight:700;letter-spacing:0.01em}
 .chart-hd .stats{font-size:10.5px;font-weight:500;color:rgba(255,255,255,0.85);font-variant-numeric:tabular-nums}
-.chart-toggles{display:flex;gap:8px;align-items:center;margin-left:auto}
-.chart-toggles label{font-size:10px;color:rgba(255,255,255,0.85);display:flex;align-items:center;gap:4px;cursor:pointer;letter-spacing:0.03em}
-.chart-toggles input{accent-color:var(--mint);transform:scale(0.9)}
+.chart-toggles{display:flex;gap:2px;align-items:center;margin-left:auto;background:rgba(255,255,255,0.15);border-radius:20px;padding:3px}
+.chart-toggles label{font-family:'Space Grotesk',sans-serif;font-size:10.5px;font-weight:600;color:rgba(255,255,255,0.82);display:flex;align-items:center;cursor:pointer;letter-spacing:0.02em;padding:6px 13px;border-radius:16px;transition:background 0.15s,color 0.15s;white-space:nowrap}
+.chart-toggles label:has(input:checked){background:#fff;color:var(--forest);font-weight:700}
+.chart-toggles input{position:absolute;opacity:0;width:0;height:0;pointer-events:none;margin:0}
 .chart-body{padding:12px 14px;height:240px;position:relative}
 
 /* Variation filters */
@@ -309,7 +310,9 @@ body.dark-mode .alerts-hd{color:#7BDADA!important}
 body.dark-mode .chart-card{background:#22282d;border-color:#353c42}
 body.dark-mode .chart-hd{background:#1F5454;color:#fff}
 body.dark-mode .chart-hd .t,body.dark-mode .chart-hd span{color:#fff!important}
+body.dark-mode .chart-toggles{background:rgba(255,255,255,0.10)!important}
 body.dark-mode .chart-toggles label{color:#fff!important}
+body.dark-mode .chart-toggles label:has(input:checked){background:#11ABAB!important;color:#fff!important}
 /* Heatmap */
 body.dark-mode .heatmap-wrap{background:#22282d;border-color:#353c42}
 body.dark-mode .heatmap-hd{color:#7BDADA!important}
@@ -718,7 +721,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-08-25 11:46</div>
+  <div>build 2026-08-25 17:55</div>
 </footer>
 
 <script>
