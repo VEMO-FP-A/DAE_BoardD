@@ -182,6 +182,8 @@ body.dark-mode .pl-view-badge b{color:var(--mint)}
 .opmet-hd{background:var(--forest);color:#fff;padding:11px 18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
 .opmet-hd .t{font-size:14px;font-weight:700;letter-spacing:0.01em}
 .opmet-hd .hint{font-size:10.5px;color:rgba(255,255,255,0.78);letter-spacing:0.03em}
+.opmet-toggle-all{font-family:'Space Grotesk',sans-serif;font-size:10.5px;font-weight:700;letter-spacing:0.03em;color:#fff;background:rgba(255,255,255,0.16);border:1px solid rgba(255,255,255,0.35);border-radius:4px;padding:5px 11px;cursor:pointer;transition:background 0.15s}
+.opmet-toggle-all:hover{background:rgba(255,255,255,0.28)}
 .opmet-row{border-bottom:1px solid var(--b);transition:background 0.12s;background:#fff}
 .opmet-row:last-child{border-bottom:none}
 .opmet-row .hd{display:flex;align-items:center;gap:14px;padding:13px 18px;cursor:pointer;user-select:none}
@@ -629,7 +631,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
   <div class="header">
     <div>
       <div class="title">DAE — <b>Executive Summary</b></div>
-      <div class="subtitle">Full history · Ride-hailing · Financial &amp; Operational  ·  <span id="data-through-label" style="color:var(--teal);font-weight:700"></span></div>
+      <div class="subtitle">Ride-hailing · Operational &amp; Financial Metrics  ·  <span id="data-through-label" style="color:var(--teal);font-weight:700"></span></div>
     </div>
     <div class="brand">
       <div class="vemo-logo-wrap">
@@ -778,7 +780,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-08-24 16:29</div>
+  <div>build 2026-08-25 17:28</div>
 </footer>
 
 <script>
@@ -1676,8 +1678,7 @@ function renderRatioExpandable(targetId, list, sectionTitle){
   const tgt=document.getElementById(targetId); if(!tgt) return;
   const RS = rangeStart(), RE = rangeEnd();
   let html = sectionTitle ? ('<div class="vemo-section-title">'+sectionTitle+'</div>') : '';
-  const hint = mlblShort(RS)+' → '+mlblShort(RE)+' · '+(KPI_RANGE==='ytd'?'YTD '+CURY:'Full history')+' · click section to expand';
-  html += '<div class="opmet-wrap"><div class="opmet-hd"><span class="t">Operational Metrics Table</span><span class="hint">'+hint+'</span></div>';
+  html += '<div class="opmet-wrap"><div class="opmet-hd"><span class="t">Operational Metrics Table</span><button type="button" class="opmet-toggle-all" data-state="closed">Expand all</button></div>';
   // Buscar el indice del primer mes de 2026 (para filtrado only2026)
   const _idx2026 = (D.months||[]).findIndex(m => m && m.startsWith('2026-01'));
   const _year2026Start = _idx2026 >= 0 ? _idx2026 : 12;
@@ -1877,6 +1878,18 @@ function renderRatioExpandable(targetId, list, sectionTitle){
   tgt.insertAdjacentHTML('beforeend', html);
   tgt.querySelectorAll('.opmet-row .hd').forEach(hd=>{
     hd.addEventListener('click',()=>hd.parentElement.classList.toggle('open'));
+  });
+  tgt.querySelectorAll('.opmet-toggle-all').forEach(btn=>{
+    if(btn.dataset.bound) return;
+    btn.dataset.bound='1';
+    btn.addEventListener('click',()=>{
+      const wrap = btn.closest('.opmet-wrap');
+      if(!wrap) return;
+      const rows = wrap.querySelectorAll('.opmet-row');
+      const anyClosed = Array.from(rows).some(r=>!r.classList.contains('open'));
+      rows.forEach(r=>r.classList.toggle('open', anyClosed));
+      btn.textContent = anyClosed ? 'Collapse all' : 'Expand all';
+    });
   });
 }
 
