@@ -335,45 +335,33 @@
   "highlights": [
    {
     "title": "Revenue Performance",
-    "body": "Closed at <b>MXN $58.6m</b> (<span class='g'>+4.4% MoM</span>; <span class='g'>+22.5% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> +0.3% MoM (MXN $225.8 vs. MXN $225.0), and +21.2% vs. Budget (MXN $225.8 vs. MXN $186.2), on account of (i) a higher price per trip of MXN $159.0 (vs. MXN $133.5 Budget); and (ii) higher trips per hour of 1.42 (vs. 1.39 Budget)."
+    "body": "Closed at <b>MXN $57.4m</b> (<span class='r'>-2.1% MoM</span>; <span class='g'>+15.7% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> -8.5% MoM (MXN $206.7 vs. MXN $225.8), and +9.4% vs. Budget (MXN $206.8 vs. MXN $189.0), on account of (i) a higher price per trip of MXN $143.4 (vs. MXN $132.5 Budget); and (ii) higher trips per hour of 1.44 (vs 1.43 Budget)."
    },
    {
-    "title": "LTO leasing to DAE",
-    "body": "Transitioned the <b>54</b> cumulative vehicles from LTO to DAE, including <b>36</b> GAC AION ES and <b>18</b> BYD D1 units, reflecting an accelerating pace of repossessed-vehicle absorption into active operations. The program converts otherwise idle inventory, previously incurring sunk parking and insurance costs — in addition to losses when either leased again or auctioned — into revenue-generating DAE assets, with continued transitions expected as additional LTO repossessions become available."
-   },
-   {
-    "title": "VEMO World Cup Initiative",
-    "body": "Successfully executed all 5 World Cup matches held in Mexico City, deploying a 30-vehicle DAE block to Uber's dedicated pickup point at Estadio Azteca for each game. Uber paid US$2,500 per game for the block, equivalent to an effective <b>MXN $314/hr</b>, consistent with the guarantee negotiated ahead of the tournament, and Uber was very pleased with the execution, which ended up generating <b>MXN $237,117</b>. Separately, secured a co-branding agreement covering full vehicle wraps on 5 units at MXN $2,500/unit, a 67% premium over our standard co-branding rate of MXN $1,500."
-   },
-   {
-    "title": "Charger Relocation Proposal",
-    "body": "Evaluating the consolidation of 8 charging units from Artz into San Pedro hub. Artz has structurally underperformed on nightshift fill rate due to limited public transport access in the area, driving persistent driver leakage; San Pedro has already demonstrated stronger fill-rate performance under comparable conditions. Consolidating into a single, larger hub is expected to generate economies of scale, reduce headcount requirements, and improve DAE-wide Performance Ratio by reducing hub-driven attrition. Evaluating potential impact of converting Artz into a RHF site given otherwise onerous cancellation penalties."
+    "title": "Monumento a la Madre & San Pedro Expansion",
+    "body": "Evaluating the conversion of Monumento a la Madre from a DAE hub into a VCN ride-hailing operation. While Monumento a la Madre has performed well as a DAE hub, its highly central location and strong Uber revenue metrics make it attractive for VCN's ride-hailing model. In parallel, consolidating its <b>13</b> charging units into San Pedro would increase vehicle density at a single DAE hub, generating operating efficiencies and supporting improved DAE-wide Performance Ratio, while unlocking a strategic location for VCN in one of the city's most active ride-hailing corridors."
    },
    {
     "title": "Samsara",
-    "body": "Completed full Samsara deployment across the fleet, confirming strong performance in event-detection accuracy. As a direct result, reported accident-rate metrics have increased, reflecting more precise incident capture rather than a deterioration in driving behavior. Work is underway to incorporate the Samsara Driver Safety Score into the compensation framework, aligning driver incentives with safety performance and targeting a reduction in at-fault incidents over time."
+    "body": "Full Samsara deployment across the fleet was completed on July 13. Since deployment, responsible accidents declined <b>37%</b> (from 62 (week of Jul 13) to 39 (week of Aug 3), and AARK responsible declined <b>39%</b> (from 5.33 to 3.24). While the post-deployment period remains too short to establish a sustained trend, the early results are encouraging. The Samsara Driver Safety Score has also begun to be incorporated into driver compensation: during the first week of August, <b>45 drivers</b>, representing <b>1.6%</b> of the active fleet, were impacted in their compensation through their Samsara score, creating a direct link between safety performance and driver earnings."
    },
    {
-    "title": "Corporate SG&A Reallocation",
-    "body": "Corporate and cross-functional cost allocation across business lines was rebalanced to reflect actual time and resource demands versus budget. VCN's share rose from 30% to 32%, DAE's from 15% to 20%, with LTO absorbing the corresponding reduction, driven by DAE's larger fleet and LTO's smaller active portfolio."
+    "title": "Uber Airport Licensing Opportunity",
+    "body": "In early-stage discussions with Uber to establish VEMO Conduce as a licensed operator for passenger pickup and drop-off within Mexico City airport federal zone. A key requirement is that all drivers hold a valid Federal License, issued through SICT-authorized training. We are advancing with CECAFED, a certified third-party provider, with an estimated certification cost of approximately <b>$10,000 MXN</b> per driver and current capacity of <b>15–30 drivers</b> per week, primarily constrained by medical-exam processing capacity. The Category F license also requires <b>65 hours</b> of training. In parallel, we are evaluating alternative certified providers to optimize both cost and driver throughput, as well as the feasibility of establishing an in-house SICT-authorized VEMO training center as a medium-term solution to reduce costs and increase capacity. The in-house alternative is estimated to require <b>6–8 months</b> to implement. Uber is currently developing the economic model, and we are awaiting their formal proposal before advancing internal structuring discussions. Outside legal counsel review remains ongoing."
    }
   ],
   "lowlights": [
    {
     "title": "Performance Ratio",
-    "body": "Improved <span class='g'>+170 bps MoM</span> (70.4% vs. 68.7%) though <span class='r'>-756 bps vs. Budget</span> (70.4% vs. 78.0%). Supply hours increased +2.7% MoM (250,317 vs. 243,738) and were +0.1% above Budget (250,317 vs. 250,067). The decrease in PR vs Budget was mainly driven by:<br>• <b>Hiring:</b> closed +42.3% MoM in hires (730 vs. 513); the increase was mainly driven by:<br>&nbsp;&nbsp;– <b>Lead quality:</b> Another record month in lead generation, reaching 16,893 leads in June (+17.3% MoM vs. 14,400 in May). Despite record hires, conversion of hire from same-month leads held flat at 1.3% — the same rate as May, against the 2.5% seen in January and February. This confirms the constraint is conversion efficiency, not lead volume: we are generating more leads than we can convert. July's target is to sustain June's lead volume while recovering to Jan/Feb conversion rates of ca. 2.5%."
+    "body": "Improved <span class='g'>+300 bps MoM</span> (73.4% vs. 70.4%) though <span class='r'>-456 bps vs. Budget</span> (70.4% vs. 73.4%). Supply hours increased <span class='g'>+8.1% MoM</span> (270,527 vs. 250,317) and were <span class='r'>+5.8% above Budget</span> (270,527 vs. 255,412). The decrease in PR vs Budget was mainly driven by:"
+   },
+   {
+    "title": "Hiring",
+    "body": "Closed in line with June's hiring levels (<b>726 vs. 730</b>), marking the second-best month of the year. This was achieved with a leaner recruiting team (<b>18 recruiters</b> vs. 21 earlier in the year), supported by AI recruiting agent María, which is expected to enable a further reduction of <b>3 FTEs</b> next month."
    },
    {
     "title": "Churn",
-    "body": "Overall churn increased from <b>31.9%</b> to <b>33.6%</b>, normalized for the transition of 41 DAE drivers to LTO. The increase was mainly driven by higher churn among new drivers, which is consistent with record hiring months and the entry of a larger low-tenure driver cohort."
-   },
-   {
-    "title": "Uber Rebate",
-    "body": "The Uber Rebate for DAE ran from Q1'24 through Q1'26, applying a 7.5% take rate to 450 vehicles of the VEMO fleet, subject to LTO's credit allocation (7.5%/450 held at 100% LTO attainment vs. Uber target). In Q2'26, covered fleet dropped from 450 to 300 vehicles, mechanically pushing the implied take rate to 9% on its own; LTO then reached only 78% of its quarterly allocation target, compounding the rate to an implied 11.4% for the quarter, a <span class='r'>MXN $4.8m OPEX impact</span> vs. Q1'26. Budget had assumed renegotiation back to 7.5%/450 terms for Q2'26; that didn't happen, meaning the OPEX offset vs. budget applies from Q2'26 onward, not as a one-time hit. Absent renegotiation, the structure continues to erode: Q3'26 fleet drops to 150 vehicles (implied take rate 14%), and Q4'26 reverts to the pre-2024 baseline of 15%."
-   },
-   {
-    "title": "World Cup Marketplace",
-    "body": "Demand uplift fell short of Uber's forecast, in line with a market-wide miss. Uber projected marketplace growth vs. December '25 of +5% for June and +3% for July; actuals came in below that benchmark, with June RPH -7% vs. forecast and the first two weeks of July -9% vs. forecast. The shortfall mirrors the broader market: Deloitte reported the tournament's economic impact in Mexico landed 7% below its pre-tournament estimate, driven by lower international tourist inflows, shorter average stays, and consumption concentrated only on Mexico's match days, while road closures and mobility restrictions in host cities reduced foot traffic in certain areas. Despite the softer uplift, Ride Hailing Revenue reached <span class='g'>+22.5% vs. budget</span>, confirming the miss is against Uber's optimistic tournament scenario."
+    "body": "Overall churn increased from <b>33.6%</b> to <b>40.8%</b>, normalized for the transition of <b>43 DAE drivers</b> to LTO. The increase was mainly driven by higher churn among new drivers, which is consistent with record hiring months and the entry of a larger low-tenure driver cohort.<br>• The tenure indicates that July's deterioration was concentrated among new hires: the <b>15–30 day</b> bucket hit <b>151 exits</b> (+63 vs. YTD average, +40 vs. June) and <b>31–60 days</b> hit <b>146</b> (+44 vs. average, +60 vs. June, the largest MoM increase of any group). These buckets are consistent with the unusually large low-tenure cohorts created during the June-July hiring ramp. By contrast, churn beyond 90 days remained broadly stable, confirming the deterioration was concentrated primarily among newer drivers.<br>• Continuous Absenteeism drove nearly half of all churn (<b>345 exits, 49.7%</b>), 124 above average and the clearest sign that a meaningful share of recent hires never did fully engage with operations. QHSE sanctions (<b>106, +33</b>) and resignations (<b>90, +16</b>) followed. Separately, <b>62 drivers</b> exited before ever reaching operations (35 never completed a trip, 27 were absent on Day 2 of VEMO Uni), highlighting pre-operational attrition as an additional area of focus. — excluding those, the adjusted churn rate falls to <b>~39.6%</b>."
    }
   ],
   "pnl_revenue": {
@@ -381,16 +369,16 @@
    "mom": "<b>(MXN -$1.2m):</b> Mainly driven by lower RPH <b>-8.5%</b> (<b>$206.7 vs. $225.8</b>), on account of a lower price per ride <b>-9.8%</b> (<b>$143.4 vs. $159.0</b>), partially offset by higher SH <b>+8.1%</b> (<b>270.5k vs. 250.3k</b>)."
   },
   "pnl_gp": {
-   "bud": "<b>(MXN -$0.9m):</b> Mainly driven by (i) higher OPEX (<b>-$8.7m</b>), explained by: (a) higher Uber TR (<b>ca. -$5.4m</b>), on account of a higher fleet (<b>687 vs. 588</b>), following the LTO vehicle leasing, resulting in: driver payments required, higher maintenance expense (<b>-$1.1m</b>); higher marketing expense (<b>-$1.1m</b>) due to fleet branding expenses; vehicle leasing (<b>-$1.0m</b>), slightly offset by lower Charging infra leasing (<b>+$0.3m</b>) and lower vehicle administrative fees (<b>+$0.1m</b>). (ii) Partially offset by higher revenues (<b>+$7.8m</b>).",
-   "mom": "<b>(MXN -$1.5m):</b> Mainly driven by lower (i) Revenues (<b>-$1.2m</b>), (ii) and higher OPEX (<b>-$0.2m</b>), primarily due to: (a) higher driver payments (<b>-$2.7m</b>), on account of higher drivers (<b>1677 vs. 1634</b>), (b) higher LTO vehicle leasing (<b>-$0.4m</b>), (c) higher Charging Infra leasing (<b>-$0.3m</b>), (d) higher vehicle administrative fees (<b>-$0.2m</b>) due to delays in invoice payments; partially offset by (e) lower driving penalties (<b>+$2.4m</b>) due to penalties refunds by Uber, (f) lower maintenance (<b>+$1.0m</b>), driven by lower maintenance per KM <b>-26.8%</b> (<b>$0.97 vs $1.32</b>)."
+   "bud": "<b>(MXN -$0.9m):</b> Mainly driven by (i) higher OPEX (<b>-$8.7m</b>), explained by: (a) higher Uber TR (<b>-$3.3m</b>; 13.8% vs 9.2%); (b) higher fleet operating expenses (<b>ca. -$5.4m</b>), following the LTO vehicle leasing (81 vehicles), resulting in: driver payments required (<b>-$2.6m</b>) due to additional drivers required (1,677 vs. 1,464), higher maintenance expense (<b>-$1.1m</b>); higher marketing expense (<b>-$1.1m</b>) due to fleet re-branding expenses; vehicle leasing (<b>-$1.0m</b>), slightly offset by lower Charging infra leasing (<b>+$0.3m</b>) and lower vehicle administrative fees (<b>+$0.1m</b>). (ii) This was partially offset by higher revenues (<b>+$7.8m</b>).",
+   "mom": "<b>(MXN -$1.5m):</b> Mainly driven by lower (i) Revenues (<b>-$1.2m</b>), and higher OPEX (<b>-$0.2m</b>), primarily due to: (a) higher driver payments (<b>-$2.7m</b>), on account of higher drivers (1,677 vs. 1,634), (b) higher LTO vehicle leasing (<b>-$0.4m</b>), (c) higher vehicle administrative fees (<b>-$0.5m</b>) due to delays in invoice payments; partially offset by (d) lower driving penalties (<b>+$2.4m</b>) due to penalties refunds by Uber, (e) lower maintenance (<b>+$1.0m</b>), driven by lower maintenance per KM <b>-26.8%</b> (<b>$0.97 vs $1.32</b>)."
   },
   "pnl_ebitda": {
    "bud": "<b>(MXN -$3.0m):</b> Mainly driven by (i) higher CF & Corp. G&A (<b>-$2.1m</b>), (ii) lower GP (<b>-$0.9m</b>); partially offset by (iii) lower DL expenses (<b>+$0.1m</b>).",
-   "mom": "<b>(MXN +$0.1m):</b> Mainly driven by: (a) lower payroll expense (<b>+$2.1m</b>) due to release of unused 2025 provisions, and other (b) G&A expenses (<b>+$0.2m</b>); (ii) partially offset by lower GP (<b>-$1.5m</b>), and higher CF & Corp. G&A (<b>-$0.8m</b>)."
+   "mom": "<b>(MXN +$0.1m):</b> Mainly driven by (i) lower payroll expense (<b>+$2.1m</b>), explained by: (a) release of unused 2025 provisions as part of a previous 2026 revisions, and other (b) G&A expenses (<b>+$0.2m</b>); (ii) partially offset by lower GP (<b>-$1.5m</b>), and higher CF & Corp. G&A (<b>-$0.8m</b>)."
   },
   "pnl_ni": {
-   "bud": "<b>(MXN -$2.2m):</b> Driven by (i) lower EBITDA (<b>-$3.0m</b>), (ii) higher D&A (<b>-$0.7m</b>) from vehicle upgrades and disposal of a vehicle; partially offset by (iii) lower taxes (<b>+$1.2m</b>), and (iv) lower net interest income (<b>ca. +$0.4m</b>).",
-   "mom": "<b>(MXN -$0.0m):</b> Driven by (i) lower D&A (<b>-$0.1m</b>), due to the disposal of a vehicle, offset by (ii) higher EBITDA (<b>+$0.1m</b>)."
+   "bud": "<b>(MXN -$2.2m):</b> Driven by (i) lower EBITDA (<b>-$3.0m</b>), (ii) higher D&A (<b>-$0.7m</b>) from vehicle upgrades; partially offset by (iii) lower taxes (<b>+$1.2m</b>), and (iv) lower net interest expense (<b>ca. +$0.4m</b>).",
+   "mom": "<b>(MXN -$0.0m):</b> Driven by (i) higher D&A (<b>-$0.1m</b>), due to the vehicle upgrades, offset by (ii) higher EBITDA (<b>+$0.1m</b>)."
   }
  }
 }
