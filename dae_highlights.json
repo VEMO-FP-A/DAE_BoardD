@@ -43,7 +43,7 @@
   "highlights": [
    {
     "title": "Revenue Performance",
-    "body": "Closed at <b>MXN $52.9m</b> (-20.3% MoM; <span class='g'>+6.9% vs Budget</span>), driven by: Revenue per Hour -20.9% MoM ($207 vs $261.6) but <span class='g'>+12.5% vs Budget</span> ($207 vs $184) thanks to higher trips per hour (1.46 vs 1.40 Bud) and higher price per trip ($142.0 vs $131.3 Bud)."
+    "body": "Closed at <b>MXN $52.9m</b> (<span class='r'>-20.3% MoM</span>; <span class='g'>+6.9% vs Budget</span>), driven by: Revenue per Hour <span class='r'>-20.9% MoM</span> ($207 vs $261.6) but <span class='g'>+12.5% vs Budget</span> ($207 vs $184) thanks to higher trips per hour (1.46 vs 1.40 Bud) and higher price per trip ($142.0 vs $131.3 Bud)."
    },
    {
     "title": "Uber Co-Branding",
@@ -57,11 +57,11 @@
   "lowlights": [
    {
     "title": "Performance Ratio",
-    "body": "<span class='r'>+174 bps MoM</span> (73.0% vs 71.3%) but <span class='r'>-428 bps below Budget</span> (73.0% vs 77.2%). Supply hours +2.5% MoM (251,074 hrs vs 245,067) but -4.9% vs Budget."
+    "body": "<span class='g'>+174 bps MoM</span> (73.0% vs 71.3%) but <span class='r'>-428 bps below Budget</span> (73.0% vs 77.2%). Supply hours <span class='g'>+2.5% MoM</span> (251,074 hrs vs 245,067) but <span class='r'>-4.9% vs Budget</span>."
    },
    {
     "title": "Hiring",
-    "body": "603 hires (+27.5% MoM) driven by (i) Maria DAE recruiting AI agent (+30% higher conversion vs fully human process); (ii) lead generation provider delivered 9,107 leads (+55% MoM, +24% vs 2025 historical)."
+    "body": "603 hires (<span class='g'>+27.5% MoM</span>) driven by (i) Maria DAE recruiting AI agent (<span class='g'>+30% higher conversion</span> vs fully human process); (ii) lead generation provider delivered 9,107 leads (<span class='g'>+55% MoM, +24% vs 2025 historical</span>)."
    }
   ],
   "pnl_revenue": {
@@ -85,7 +85,7 @@
   "highlights": [
    {
     "title": "Revenue Performance",
-    "body": "Closed at <b>MXN $52.5m</b> (-0.8% MoM; <span class='g'>+9.7% vs Budget</span>). Revenue per Hour +4.6% MoM ($216.6 vs $207) and <span class='g'>+10.2% vs Budget</span>. Higher trips per hour 1.46 (vs 1.41 Bud) + higher price per trip $147.9 (vs $139.8 Bud), partly from 6 days of air quality government restrictions."
+    "body": "Closed at <b>MXN $52.5m</b> (<span class='r'>-0.8% MoM</span>; <span class='g'>+9.7% vs Budget</span>). Revenue per Hour <span class='g'>+4.6% MoM</span> ($216.6 vs $207) and <span class='g'>+10.2% vs Budget</span>. Higher trips per hour 1.46 (vs 1.41 Bud) + higher price per trip $147.9 (vs $139.8 Bud), partly from 6 days of air quality government restrictions."
    },
    {
     "title": "Hiring strong",
@@ -99,11 +99,11 @@
   "lowlights": [
    {
     "title": "Churn QHSE Matrix",
-    "body": "Overall churn increased from 29.5% to <span class='r'>34.9%</span> (excl. DAE-LTO transitions). +40% churn driven by stricter QHSE Matrix (deliberate decision for safety standards, accident reduction, fleet condition)."
+    "body": "Overall churn increased from 29.5% to <span class='r'>34.9%</span> (excl. DAE-LTO transitions). <span class='r'>+40% churn</span> driven by stricter QHSE Matrix (deliberate decision for safety standards, accident reduction, fleet condition)."
    },
    {
     "title": "Supply Hours",
-    "body": "Decreased -4.7% MoM (239,344 vs 251,074) but +0.2% above Budget."
+    "body": "Decreased <span class='r'>-4.7% MoM</span> (239,344 vs 251,074) but <span class='g'>+0.2% above Budget</span>."
    }
   ],
   "pnl_revenue": {
@@ -141,7 +141,7 @@
   "lowlights": [
    {
     "title": "Hiring",
-    "body": "Closed <span class='r'>-19.2% MoM</span> in hires (471 vs 583) despite record lead volume 10,408 (+45.8% MoM, highest in trailing 6 months). Lead Quality: only 22.6% of leads reached induction (vs 29.7% Feb, 35.0% Jan). Driving Test Filter: 432/1,077 candidates failed (40.1%) vs 18.9% in Feb. ~130 fewer hires."
+    "body": "Closed <span class='r'>-19.2% MoM</span> in hires (471 vs 583) despite record lead volume 10,408 (<span class='g'>+45.8% MoM</span>, highest in trailing 6 months). Lead Quality: only <span class='r'>22.6%</span> of leads reached induction (vs 29.7% Feb, 35.0% Jan). Driving Test Filter: 432/1,077 candidates failed (<span class='r'>40.1%</span>) vs 18.9% in Feb. <span class='r'>~130 fewer hires</span>."
    },
    {
     "title": "Revenue per Hour",
@@ -177,7 +177,7 @@
    },
    {
     "title": "Lead Volume Record",
-    "body": "Second consecutive record month — <b>11,063 leads</b> (+6.3% MoM). Same-month hires +40% (leads generated and signed within April)."
+    "body": "Second consecutive record month — <b>11,063 leads</b> (<span class='g'>+6.3% MoM</span>). Same-month hires <span class='g'>+40%</span> (leads generated and signed within April)."
    },
    {
     "title": "EBITDA YTD",
@@ -187,15 +187,15 @@
   "lowlights": [
    {
     "title": "Performance Ratio",
-    "body": "Decreased <span class='r'>-420 bps MoM</span> (73.4% vs 77.6%) and <span class='r'>-437 bps vs Budget</span> (73.4% vs 77.8%). Supply hours -8.3% MoM (244,831 vs 267,053)."
+    "body": "Decreased <span class='r'>-420 bps MoM</span> (73.4% vs 77.6%) and <span class='r'>-437 bps vs Budget</span> (73.4% vs 77.8%). Supply hours <span class='r'>-8.3% MoM</span> (244,831 vs 267,053)."
    },
    {
     "title": "Hiring",
-    "body": "Closed <span class='r'>-3.8% MoM</span> in hires (453 vs 471). Lead Quality: -41% decrease in hires from prior-month leads. Driving Test Filter: fail rate 40.5% (vs historical 19%) → net loss 158 drivers in March + 211 in April."
+    "body": "Closed <span class='r'>-3.8% MoM</span> in hires (453 vs 471). Lead Quality: <span class='r'>-41% decrease</span> in hires from prior-month leads. Driving Test Filter: fail rate <span class='r'>40.5%</span> (vs historical 19%) → <span class='r'>net loss 158 drivers in March + 211 in April</span>."
    },
    {
     "title": "EBITDA Month",
-    "body": "EBITDA <span class='r'>($2.5m)</span> in April vs Budget ($1.3m) — <span class='r'>-95.5% vs Bud</span>. Driven by higher OPEX +13.0% MoM."
+    "body": "EBITDA <span class='r'>($2.5m)</span> in April vs Budget ($1.3m) — <span class='r'>-95.5% vs Bud</span>. Driven by higher OPEX <span class='r'>+13.0% MoM</span>."
    },
    {
     "title": "OPEX",
@@ -227,7 +227,7 @@
   "highlights": [
    {
     "title": "Revenue Performance",
-    "body": "Closed at <b>MXN $56.2m</b> (<span class='g'>+9.4% MoM</span>; <span class='g'>+4.9% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> +10.1% MoM (MXN $225.3 vs. $204.3), and +12.2% vs. Budget (MXN $225.0 vs. $200.6), on account of (i) a higher price per trip of MXN $153.7 (vs. MXN $140.5 Budget); and (ii) higher trips per hour of 1.46 (vs. 1.43 Budget)."
+    "body": "Closed at <b>MXN $56.2m</b> (<span class='g'>+9.4% MoM</span>; <span class='g'>+4.9% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> <span class='g'>+10.1% MoM</span> (MXN $225.3 vs. $204.3), and <span class='g'>+12.2% vs. Budget</span> (MXN $225.0 vs. $200.6), on account of (i) a higher price per trip of MXN $153.7 (vs. MXN $140.5 Budget); and (ii) higher trips per hour of 1.46 (vs. 1.43 Budget)."
    },
    {
     "title": "LTO leasing to DAE",
@@ -235,7 +235,7 @@
    },
    {
     "title": "Uber-VEMO World Cup Initiative",
-    "body": "A strategic agreement has been reached with Uber under which a revenue-per-hour guarantee will be applied to <b>30 vehicles</b> positioned at a dedicated pickup point 300m from Estadio Azteca, ensuring VEMO Conduce vehicles serve outbound stadium traffic. Vehicles are required to be on-site 2 hours before each match. Uber will pay <b>USD $2,500 per game</b> for the 30-vehicle block. Accounting for 2 hours of transit and 2 hours of pre-game standby, the effective guarantee yields <b>MXN $314/hr</b> — 6% above our internal World Cup projection and 30% above December 2025 actuals."
+    "body": "A strategic agreement has been reached with Uber under which a revenue-per-hour guarantee will be applied to <b>30 vehicles</b> positioned at a dedicated pickup point 300m from Estadio Azteca, ensuring VEMO Conduce vehicles serve outbound stadium traffic. Vehicles are required to be on-site 2 hours before each match. Uber will pay <b>USD $2,500 per game</b> for the 30-vehicle block. Accounting for 2 hours of transit and 2 hours of pre-game standby, the effective guarantee yields <b>MXN $314/hr</b> — <span class='g'>6% above our internal World Cup projection</span> and <span class='g'>30% above December 2025 actuals</span>."
    },
    {
     "title": "VEMO World Cup Initiative",
@@ -245,11 +245,11 @@
   "lowlights": [
    {
     "title": "Performance Ratio",
-    "body": "Decreased by <span class='r'>-470 bps MoM</span> (68.7% vs. 73.4%) and <span class='r'>-922 bps vs. Budget</span> (68.7% vs. 77.9%) and were -6.6% below Budget (243,738 vs. 260,866). The decrease in PR was mainly driven by:<br>• <b>Hiring:</b> closed +13.2% MoM in hires (513 vs. 453); despite the monthly increase, hires were concentrated at month-end and did not translate into a meaningful PR recovery.<br>&nbsp;&nbsp;– <b>Driving Test Filter:</b> The filter, tightened in March to preserve fleet image, was reset to January-February levels to support PR recovery. The historical fail rate averaged 19% (Q4 2025-Feb 2026). Following the tightening, it averaged 40.5%, representing a net loss of 158 drivers in March and 211 in April. In the final two weeks of May, the fail rate came down to 25%, yielding a net headcount gain of 52 drivers by month-end.<br>&nbsp;&nbsp;– <b>Lead quality:</b> May set another lead volume record at 14,400 (+55% vs. January, +102% vs. February). Despite this, total hires were -27% vs. January and -3.8% vs. February. Two factors explain the gap: (i) Hot sale CDMX: From May 25 to June 2, high-spending retail advertisers compressed available ad inventory, driving CPL up and conversion rates down; and (ii) Timing of initiatives: Both key initiatives — reducing driving test strictness from 40% to 25% and doubling the marketing budget from MXN $300K to MXN $600K/month — were launched in the second half of May only, limiting their impact on monthly results."
+    "body": "Decreased by <span class='r'>-470 bps MoM</span> (68.7% vs. 73.4%) and <span class='r'>-922 bps vs. Budget</span> (68.7% vs. 77.9%) and were <span class='r'>-6.6% below Budget</span> (243,738 vs. 260,866). The decrease in PR was mainly driven by:<br>• <b>Hiring:</b> closed <span class='g'>+13.2% MoM</span> in hires (513 vs. 453); despite the monthly increase, hires were concentrated at month-end and did not translate into a meaningful PR recovery.<br>&nbsp;&nbsp;– <b>Driving Test Filter:</b> The filter, tightened in March to preserve fleet image, was reset to January-February levels to support PR recovery. The historical fail rate averaged 19% (Q4 2025-Feb 2026). Following the tightening, it averaged <span class='r'>40.5%</span>, representing a net loss of 158 drivers in March and 211 in April. In the final two weeks of May, the fail rate came down to <span class='g'>25%</span>, yielding a <span class='g'>net headcount gain of 52 drivers</span> by month-end.<br>&nbsp;&nbsp;– <b>Lead quality:</b> May set another lead volume record at 14,400 (<span class='g'>+55% vs. January, +102% vs. February</span>). Despite this, total hires were <span class='r'>-27% vs. January and -3.8% vs. February</span>. Two factors explain the gap: (i) Hot sale CDMX: From May 25 to June 2, high-spending retail advertisers compressed available ad inventory, driving CPL up and conversion rates down; and (ii) Timing of initiatives: Both key initiatives — reducing driving test strictness from 40% to 25% and doubling the marketing budget from MXN $300K to MXN $600K/month — were launched in the second half of May only, limiting their impact on monthly results."
    },
    {
     "title": "Churn",
-    "body": "Overall churn decreased from <b>34.4%</b> to <b>31.9%</b>, normalized for the transition of 40 DAE drivers to LTO.<br>• <b>Bronze Category Drivers:</b> Bronze drivers account for 51% of total churn; Bronze Beginner adds another 25%, for a combined 76%. Silver and Silver Beginner represent 12%; Gold and Gold Beginner only 4%. Bronze remains the primary retention focus, as these drivers do not yet meet VEMO Conduce performance standards.<br>• <b>Increase in churn of new drivers:</b> Churn among drivers with 0-30 days of tenure increased 11%, consistent with the reduction in driving test stringency — lower entry filters produce less-qualified driver profiles and higher early drop-off rates."
+    "body": "Overall churn decreased from <b>34.4%</b> to <span class='g'>31.9%</span>, normalized for the transition of 40 DAE drivers to LTO.<br>• <b>Bronze Category Drivers:</b> Bronze drivers account for 51% of total churn; Bronze Beginner adds another 25%, for a combined 76%. Silver and Silver Beginner represent 12%; Gold and Gold Beginner only 4%. Bronze remains the primary retention focus, as these drivers do not yet meet VEMO Conduce performance standards.<br>• <b>Increase in churn of new drivers:</b> Churn among drivers with 0-30 days of tenure <span class='r'>increased 11%</span>, consistent with the reduction in driving test stringency — lower entry filters produce less-qualified driver profiles and higher early drop-off rates."
    }
   ],
   "pnl_revenue": {
@@ -273,7 +273,7 @@
   "highlights": [
    {
     "title": "Revenue Performance",
-    "body": "Closed at <b>MXN $58.6m</b> (<span class='g'>+4.4% MoM</span>; <span class='g'>+22.5% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> +0.3% MoM (MXN $225.8 vs. MXN $225.0), and +21.2% vs. Budget (MXN $225.8 vs. MXN $186.2), on account of (i) a higher price per trip of MXN $159.0 (vs. MXN $133.5 Budget); and (ii) higher trips per hour of 1.42 (vs. 1.39 Budget)."
+    "body": "Closed at <b>MXN $58.6m</b> (<span class='g'>+4.4% MoM</span>; <span class='g'>+22.5% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> <span class='g'>+0.3% MoM</span> (MXN $225.8 vs. MXN $225.0), and <span class='g'>+21.2% vs. Budget</span> (MXN $225.8 vs. MXN $186.2), on account of (i) a higher price per trip of MXN $159.0 (vs. MXN $133.5 Budget); and (ii) higher trips per hour of 1.42 (vs. 1.39 Budget)."
    },
    {
     "title": "LTO leasing to DAE",
@@ -281,7 +281,7 @@
    },
    {
     "title": "VEMO World Cup Initiative",
-    "body": "Successfully executed all 5 World Cup matches held in Mexico City, deploying a 30-vehicle DAE block to Uber's dedicated pickup point at Estadio Azteca for each game. Uber paid US$2,500 per game for the block, equivalent to an effective <b>MXN $314/hr</b>, consistent with the guarantee negotiated ahead of the tournament, and Uber was very pleased with the execution, which ended up generating <b>MXN $237,117</b>. Separately, secured a co-branding agreement covering full vehicle wraps on 5 units at MXN $2,500/unit, a 67% premium over our standard co-branding rate of MXN $1,500."
+    "body": "Successfully executed all 5 World Cup matches held in Mexico City, deploying a 30-vehicle DAE block to Uber's dedicated pickup point at Estadio Azteca for each game. Uber paid US$2,500 per game for the block, equivalent to an effective <b>MXN $314/hr</b>, consistent with the guarantee negotiated ahead of the tournament, and Uber was very pleased with the execution, which ended up generating <b>MXN $237,117</b>. Separately, secured a co-branding agreement covering full vehicle wraps on 5 units at MXN $2,500/unit, a <span class='g'>67% premium</span> over our standard co-branding rate of MXN $1,500."
    },
    {
     "title": "Charger Relocation Proposal",
@@ -293,17 +293,17 @@
    },
    {
     "title": "Corporate SG&A Reallocation",
-    "body": "Corporate and cross-functional cost allocation across business lines was rebalanced to reflect actual time and resource demands versus budget. VCN's share rose from 30% to 32%, DAE's from 15% to 20%, with LTO absorbing the corresponding reduction, driven by DAE's larger fleet and LTO's smaller active portfolio."
+    "body": "Corporate and cross-functional cost allocation across business lines was rebalanced to reflect actual time and resource demands versus budget. VCN's share rose from 30% to 32%, <span class='r'>DAE's from 15% to 20%</span>, with LTO absorbing the corresponding reduction, driven by DAE's larger fleet and LTO's smaller active portfolio."
    }
   ],
   "lowlights": [
    {
     "title": "Performance Ratio",
-    "body": "Improved <span class='g'>+170 bps MoM</span> (70.4% vs. 68.7%) though <span class='r'>-756 bps vs. Budget</span> (70.4% vs. 78.0%). Supply hours increased +2.7% MoM (250,317 vs. 243,738) and were +0.1% above Budget (250,317 vs. 250,067). The decrease in PR vs Budget was mainly driven by:<br>• <b>Hiring:</b> closed +42.3% MoM in hires (730 vs. 513); the increase was mainly driven by:<br>&nbsp;&nbsp;– <b>Lead quality:</b> Another record month in lead generation, reaching 16,893 leads in June (+17.3% MoM vs. 14,400 in May). Despite record hires, conversion of hire from same-month leads held flat at 1.3% — the same rate as May, against the 2.5% seen in January and February. This confirms the constraint is conversion efficiency, not lead volume: we are generating more leads than we can convert. July's target is to sustain June's lead volume while recovering to Jan/Feb conversion rates of ca. 2.5%."
+    "body": "Improved <span class='g'>+170 bps MoM</span> (70.4% vs. 68.7%) though <span class='r'>-756 bps vs. Budget</span> (70.4% vs. 78.0%). Supply hours increased <span class='g'>+2.7% MoM</span> (250,317 vs. 243,738) and were <span class='g'>+0.1% above Budget</span> (250,317 vs. 250,067). The decrease in PR vs Budget was mainly driven by:<br>• <b>Hiring:</b> closed <span class='g'>+42.3% MoM</span> in hires (730 vs. 513); the increase was mainly driven by:<br>&nbsp;&nbsp;– <b>Lead quality:</b> Another record month in lead generation, reaching 16,893 leads in June (<span class='g'>+17.3% MoM</span> vs. 14,400 in May). Despite record hires, conversion of hire from same-month leads held flat at <span class='r'>1.3%</span> — the same rate as May, against the 2.5% seen in January and February. This confirms the constraint is conversion efficiency, not lead volume: we are generating more leads than we can convert. July's target is to sustain June's lead volume while recovering to Jan/Feb conversion rates of ca. 2.5%."
    },
    {
     "title": "Churn",
-    "body": "Overall churn increased from <b>31.9%</b> to <b>33.6%</b>, normalized for the transition of 41 DAE drivers to LTO. The increase was mainly driven by higher churn among new drivers, which is consistent with record hiring months and the entry of a larger low-tenure driver cohort."
+    "body": "Overall churn increased from <b>31.9%</b> to <span class='r'>33.6%</span>, normalized for the transition of 41 DAE drivers to LTO. The increase was mainly driven by higher churn among new drivers, which is consistent with record hiring months and the entry of a larger low-tenure driver cohort."
    },
    {
     "title": "Uber Rebate",
@@ -311,7 +311,7 @@
    },
    {
     "title": "World Cup Marketplace",
-    "body": "Demand uplift fell short of Uber's forecast, in line with a market-wide miss. Uber projected marketplace growth vs. December '25 of +5% for June and +3% for July; actuals came in below that benchmark, with June RPH -7% vs. forecast and the first two weeks of July -9% vs. forecast. The shortfall mirrors the broader market: Deloitte reported the tournament's economic impact in Mexico landed 7% below its pre-tournament estimate, driven by lower international tourist inflows, shorter average stays, and consumption concentrated only on Mexico's match days, while road closures and mobility restrictions in host cities reduced foot traffic in certain areas. Despite the softer uplift, Ride Hailing Revenue reached <span class='g'>+22.5% vs. budget</span>, confirming the miss is against Uber's optimistic tournament scenario."
+    "body": "Demand uplift fell short of Uber's forecast, in line with a market-wide miss. Uber projected marketplace growth vs. December '25 of +5% for June and +3% for July; actuals came in below that benchmark, with June RPH <span class='r'>-7% vs. forecast</span> and the first two weeks of July <span class='r'>-9% vs. forecast</span>. The shortfall mirrors the broader market: Deloitte reported the tournament's economic impact in Mexico landed 7% below its pre-tournament estimate, driven by lower international tourist inflows, shorter average stays, and consumption concentrated only on Mexico's match days, while road closures and mobility restrictions in host cities reduced foot traffic in certain areas. Despite the softer uplift, Ride Hailing Revenue reached <span class='g'>+22.5% vs. budget</span>, confirming the miss is against Uber's optimistic tournament scenario."
    }
   ],
   "pnl_revenue": {
@@ -335,7 +335,7 @@
   "highlights": [
    {
     "title": "Revenue Performance",
-    "body": "Closed at <b>MXN $57.4m</b> (<span class='r'>-2.1% MoM</span>; <span class='g'>+15.7% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> -8.5% MoM (MXN $206.7 vs. MXN $225.8), and +9.4% vs. Budget (MXN $206.8 vs. MXN $189.0), on account of (i) a higher price per trip of MXN $143.4 (vs. MXN $132.5 Budget); and (ii) higher trips per hour of 1.44 (vs 1.43 Budget)."
+    "body": "Closed at <b>MXN $57.4m</b> (<span class='r'>-2.1% MoM</span>; <span class='g'>+15.7% vs. Budget</span>), mainly driven by:<br>• <b>Revenue per Hour:</b> <span class='r'>-8.5% MoM</span> (MXN $206.7 vs. MXN $225.8), and <span class='g'>+9.4% vs. Budget</span> (MXN $206.8 vs. MXN $189.0), on account of (i) a higher price per trip of MXN $143.4 (vs. MXN $132.5 Budget); and (ii) higher trips per hour of 1.44 (vs 1.43 Budget)."
    },
    {
     "title": "Monumento a la Madre & San Pedro Expansion",
@@ -343,7 +343,7 @@
    },
    {
     "title": "Samsara",
-    "body": "Full Samsara deployment across the fleet was completed on July 13. Since deployment, responsible accidents declined <b>37%</b> (from 62 (week of Jul 13) to 39 (week of Aug 3), and AARK responsible declined <b>39%</b> (from 5.33 to 3.24). While the post-deployment period remains too short to establish a sustained trend, the early results are encouraging. The Samsara Driver Safety Score has also begun to be incorporated into driver compensation: during the first week of August, <b>45 drivers</b>, representing <b>1.6%</b> of the active fleet, were impacted in their compensation through their Samsara score, creating a direct link between safety performance and driver earnings."
+    "body": "Full Samsara deployment across the fleet was completed on July 13. Since deployment, responsible accidents <span class='g'>declined 37%</span> (from 62 (week of Jul 13) to 39 (week of Aug 3), and AARK responsible <span class='g'>declined 39%</span> (from 5.33 to 3.24). While the post-deployment period remains too short to establish a sustained trend, the early results are encouraging. The Samsara Driver Safety Score has also begun to be incorporated into driver compensation: during the first week of August, <b>45 drivers</b>, representing <b>1.6%</b> of the active fleet, were impacted in their compensation through their Samsara score, creating a direct link between safety performance and driver earnings."
    },
    {
     "title": "Uber Airport Licensing Opportunity",
@@ -361,7 +361,7 @@
    },
    {
     "title": "Churn",
-    "body": "Overall churn increased from <b>33.6%</b> to <b>40.8%</b>, normalized for the transition of <b>43 DAE drivers</b> to LTO. The increase was mainly driven by higher churn among new drivers, which is consistent with record hiring months and the entry of a larger low-tenure driver cohort.<br>• The tenure indicates that July's deterioration was concentrated among new hires: the <b>15–30 day</b> bucket hit <b>151 exits</b> (+63 vs. YTD average, +40 vs. June) and <b>31–60 days</b> hit <b>146</b> (+44 vs. average, +60 vs. June, the largest MoM increase of any group). These buckets are consistent with the unusually large low-tenure cohorts created during the June-July hiring ramp. By contrast, churn beyond 90 days remained broadly stable, confirming the deterioration was concentrated primarily among newer drivers.<br>• Continuous Absenteeism drove nearly half of all churn (<b>345 exits, 49.7%</b>), 124 above average and the clearest sign that a meaningful share of recent hires never did fully engage with operations. QHSE sanctions (<b>106, +33</b>) and resignations (<b>90, +16</b>) followed. Separately, <b>62 drivers</b> exited before ever reaching operations (35 never completed a trip, 27 were absent on Day 2 of VEMO Uni), highlighting pre-operational attrition as an additional area of focus. — excluding those, the adjusted churn rate falls to <b>~39.6%</b>."
+    "body": "Overall churn increased from <b>33.6%</b> to <span class='r'>40.8%</span>, normalized for the transition of <b>43 DAE drivers</b> to LTO. The increase was mainly driven by higher churn among new drivers, which is consistent with record hiring months and the entry of a larger low-tenure driver cohort.<br>• The tenure indicates that July's deterioration was concentrated among new hires: the <b>15–30 day</b> bucket hit <b>151 exits</b> (<span class='r'>+63 vs. YTD average, +40 vs. June</span>) and <b>31–60 days</b> hit <b>146</b> (<span class='r'>+44 vs. average, +60 vs. June</span>, the largest MoM increase of any group). These buckets are consistent with the unusually large low-tenure cohorts created during the June-July hiring ramp. By contrast, churn beyond 90 days remained broadly stable, confirming the deterioration was concentrated primarily among newer drivers.<br>• Continuous Absenteeism drove nearly half of all churn (<b>345 exits, 49.7%</b>), <span class='r'>124 above average</span> and the clearest sign that a meaningful share of recent hires never did fully engage with operations. QHSE sanctions (<b>106, <span class='r'>+33</span></b>) and resignations (<b>90, <span class='r'>+16</span></b>) followed. Separately, <b>62 drivers</b> exited before ever reaching operations (35 never completed a trip, 27 were absent on Day 2 of VEMO Uni), highlighting pre-operational attrition as an additional area of focus. — excluding those, the adjusted churn rate <span class='g'>falls to ~39.6%</span>."
    }
   ],
   "pnl_revenue": {
