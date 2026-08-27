@@ -721,7 +721,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-08-27 12:51</div>
+  <div>build 2026-08-27 13:27</div>
 </footer>
 
 <script>
@@ -1011,7 +1011,7 @@ function renderKPICards(){
       function fmtRange(v){
         if(v == null || isNaN(v)) return '';
         if(ki && ki.type === 'pct'){
-          const pct = Math.abs(v) <= 1 ? v*100 : v;
+          const pct = v*100;
           return pct.toFixed(0) + '%';
         }
         const a = Math.abs(v);
