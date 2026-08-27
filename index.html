@@ -350,6 +350,8 @@ body.dark-mode .hl-card .item .t{color:#7BDADA!important}
 body.dark-mode .hl-card .item div{color:#d4dae0!important}
 body.dark-mode .hl-g{color:#5dd39e!important}
 body.dark-mode .hl-r{color:#ff7676!important}
+body.dark-mode .hl-card .g{color:#5dd39e!important}
+body.dark-mode .hl-card .r{color:#ff7676!important}
 body.dark-mode .pnl-card{background:#22282d;border-color:#353c42;color:#d4dae0}
 body.dark-mode .pnl-card .hd{background:#1F5454;color:#fff!important}
 body.dark-mode .pnl-card .sec,body.dark-mode .pnl-card .sec div{color:#d4dae0!important}
@@ -470,6 +472,7 @@ body.dark-mode .ribbon span,body.dark-mode .ribbon-bot span{color:#d4dae0!import
 .hl-card .item{padding:11px 16px;border-bottom:1px solid #f0f0f0;font-size:12.5px;line-height:1.5;color:#222;font-family:'Space Grotesk',sans-serif}
 .hl-card .item:last-child{border-bottom:none}
 .hl-g{color:#117A45;font-weight:600}.hl-r{color:#C0392B;font-weight:600}
+.hl-card .g{color:#117A45;font-weight:600}.hl-card .r{color:#C0392B;font-weight:600}
 .hl-card .item .t{font-weight:700;color:var(--forest);margin-bottom:3px;display:flex;align-items:center;gap:6px}
 .hl-card .item .t::before{content:'';display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--teal)}
 .hl-card.ll .item .t::before{background:#C0392B}
@@ -721,7 +724,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-08-27 13:27</div>
+  <div>build 2026-08-27 15:30</div>
 </footer>
 
 <script>
@@ -6121,12 +6124,12 @@ function renderMonthlyHL(){
   }
   let hl = '<div class="hl-card hl"><div class="hd">▲ Highlights</div>';
   data.highlights.forEach(function(h){
-    hl += '<div class="item"><div class="t">'+h.title+'</div><div>'+colorize(h.body, true)+'</div></div>';
+    hl += '<div class="item"><div class="t">'+h.title+'</div><div>'+h.body+'</div></div>';
   });
   hl += '</div>';
   let ll = '<div class="hl-card ll"><div class="hd">▼ Lowlights</div>';
   data.lowlights.forEach(function(l){
-    ll += '<div class="item"><div class="t">'+l.title+'</div><div>'+colorize(l.body, false)+'</div></div>';
+    ll += '<div class="item"><div class="t">'+l.title+'</div><div>'+l.body+'</div></div>';
   });
   ll += '</div>';
   gridEl.innerHTML = hl + ll;
