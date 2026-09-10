@@ -724,7 +724,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-08-30 12:09</div>
+  <div>build 2026-09-10 10:12</div>
 </footer>
 
 <script>
@@ -1074,12 +1074,20 @@ const PL_HIER = [
     {k:'provision_reversal',   l:'Provision Reversal'},
   ]},
   {k:'opex', l:'Opex', invert:true, children:[
-    {k:'ev_fuel_cost',         l:'EV/Fuel'},
+    // Orden actualizado 2026-09 para reflejar el orden de filas del Excel (P&L HUBS/OPEX
+    // se reordeno): Wages/Bonus/Benefits -> Driver Payments -> Uber Take Rate -> EV Fuel Cost
+    // -> Charging Infra -> ChaaS -> Maintenance -> Washing -> Towing -> Vehicle Recovery ->
+    // Non-Op Fleet Storage -> Vehicle Leasing -> Insurance -> Marketing -> Driving Penalties
+    // -> Telematics -> Training Cost -> Security -> Vehicle Admin Fees -> Other C&E -> Gain/Loss Secondary Sales
     {k:'driver_payments',      l:'Driver Payments', children:[
       {k:'wages_opex',         l:'Wages'},
       {k:'bonus_opex',         l:'Bonus'},
       {k:'benefits_opex',      l:'Benefits'},
     ]},
+    {k:'uber_take_rate',              l:'Uber Take Rate'},
+    {k:'ev_fuel_cost',         l:'EV/Fuel'},
+    {k:'charging_infra',              l:'Charging Infra'},
+    {k:'chaas',                       l:'ChaaS'},
     {k:'maintenance_opex',            l:'Maintenance'},
     {k:'washing',                     l:'Washing'},
     {k:'towing_service',              l:'Towing Service'},
@@ -1091,9 +1099,6 @@ const PL_HIER = [
     {k:'driving_penalties',           l:'Driving Penalties & Fines'},
     {k:'telematics_opex',             l:'Telematics'},
     {k:'training_cost',               l:'Training Cost'},
-    {k:'uber_take_rate',              l:'Uber Take Rate'},
-    {k:'charging_infra',              l:'Charging Infra'},
-    {k:'chaas',                       l:'ChaaS'},
     {k:'security',                    l:'Security'},
     {k:'vehicle_administrative_fees', l:'Vehicle Administrative Fees'},
     {k:'other_ce_opex',               l:'Other C&E'},
