@@ -669,7 +669,7 @@ footer.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--b);font-
 
 <footer class="foot">
   <div>VEMO · DAE · Strictly Private &amp; Confidential</div>
-  <div>build 2026-10-29 16:33</div>
+  <div>build 2026-10-29 16:42</div>
 </footer>
 
 <script>
@@ -829,7 +829,6 @@ function renderAlerts(){
 /* ============ 13 KPI CARDS ============ */
 const KPI13=[
   {l:'Performance Ratio',keys:['performance_ratio'],unit:'%',type:'pct',agg:'avg',better:'up'},
-  {l:'Performance Ratio Exc. LTO',keys:['performance_ratio_exc_lto'],unit:'%',type:'pct',agg:'avg',better:'up'},
   {l:'Supply Hours',keys:['supply_hours','time_online'],unit:'Hrs',type:'num',agg:'sum',fmt:'int',better:'up'},
   {l:'Revenue Per Hour (RPH)',keys:['revenue_per_hour','rev_per_hour_vemo'],unit:'MXN$',type:'num',agg:'avg',fmt:'n1',better:'up'},
   {l:'Utilization',keys:['utilization'],unit:'%',type:'pct',agg:'avg',better:'up'},
@@ -1990,7 +1989,6 @@ const RATIO_CHARTS = {
   main: [
     // Un chart por cada KPI de la tabla Main KPIs (mismos que las tarjetas del Exec Summary)
     {keys:['performance_ratio'], l:'Performance Ratio', type:'pct', agg:'avg'},
-    {keys:['performance_ratio_exc_lto'], l:'Performance Ratio Exc. LTO', type:'pct', agg:'avg'},
     {keys:['supply_hours','time_online'], l:'Supply Hours', agg:'sum', fmt:'int'},
     {keys:['revenue_per_hour','rev_per_hour_vemo'], l:'Revenue Per Hour (RPH)', agg:'avg', fmt:'n1'},
     {keys:['utilization'], l:'Utilization', type:'pct', agg:'avg'},
